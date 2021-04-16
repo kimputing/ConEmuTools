@@ -1,0 +1,5 @@
+cmd /k "doskey run=StartPC.bat && doskey studio=StudioPC.bat && timeout /t 10 && echo N|StartPC.bat"
+cmd /c "timeout /t 60 && StudioPC.bat"
+cmd /k "doskey run=StartBC.bat && doskey studio=StudioBC.bat && timeout /t 5 && echo N|StartBC.bat"
+cmd /k "doskey run=StartCM.bat && doskey studio=StudioCM.bat && timeout /t 0 && echo N|StartCM.bat"
+
