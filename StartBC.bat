@@ -43,3 +43,4 @@ rem echo set JAVA_OPTS=-Xdebug -Xrunjdwp:transport=dt_shmem,server=y,suspend=%Op
 echo gwk runServer -a -Denv=%Env% %Suspend% %Compiler% --debug-shmem -Dgw.server.mode=%Mode% -Dgw.port=8580
 rem set JAVA_OPTS=-Xdebug -Xrunjdwp:transport=dt_shmem,server=y,suspend=%OptSuspend%,address=javadebug.3
 gwb runServer -a -Denv=%Env% %Suspend% %Compiler% --debug-shmem -Dgw.server.mode=%Mode% -Dgw.port=8580
+
